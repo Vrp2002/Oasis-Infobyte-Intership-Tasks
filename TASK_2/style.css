@@ -8,11 +8,6 @@ body{
 .navbar{
     position: fixed;
     z-index: 1;
-    /* top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0; */
-    /* height: 100px; */
     width: 100%;
 }
 .navigationbar{
@@ -76,7 +71,7 @@ background-color: black;
     background-color: aliceblue;
 }
 .profile-pic{
-    width: 300px;
+    width: 500px;
     height: 300px;
     
 }
@@ -155,8 +150,6 @@ section{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 6%;
-    /* margin: 2%; */
-    /* border: 5px solid rgb(235, 204, 30); */
 }
 #portfolio{
 background-color: black;
@@ -196,8 +189,7 @@ background-color: black;
     padding: 10px 0;
     overflow-y: hidden;
     text-align: center;
-    /* margin: auto; */
-    /* border: 5px solid gray; */
+  
 
 }
 .fa-brands:hover{
