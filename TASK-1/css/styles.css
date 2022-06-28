@@ -74,6 +74,8 @@ background-color: #fff;
 #cta{
   font-family: 'Courier New', Courier, monospace;
   font-size: larger;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 #title .container-fluid{
   background-image: url(../images/dark-wallpapers.avif);
@@ -106,7 +108,9 @@ background-color: #fff;
 }
 
 
-
+.fa-solid{
+  color: black;
+}
 .icon{
   color:black;
   margin-bottom:1rem;
