@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: lightblue;
+        }
+        .form{
+            
+            background-color:blanchedalmond;
+            width:50%;
+            height: 50%;
+            margin: 10% 16%;
+            padding: 10%;
+            border-radius: 25%;
+            box-shadow: 0 20px 25px rgba(71, 38, 25, 0.25);
+            
+        }
+        .title{
+           text-align: center;
+           text-decoration: underline;
+           font-size: xx-large;
+           color: darkblue;
+           font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           font-weight: bolder;
+        }
+        .control{
+            margin:5% 6%;
+            text-align: center;
+        }
+        .label{
+            color: rgb(214, 6, 6);
+            font-size: xx-large;
+            margin: 25px 40px;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bolder;
+        }
+        .control input{
+            /* border: 2px dotted black; */
+            height: 30px;
+            border-radius: 15%;
+        }
+        input:focus{
+            border: 2px solid red;
+        }
+        .control input{
+            border: 2px dotted black;
+            height: 30px;
+            border-radius: 15%;
+        }
+    </style>
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+    
+    var celcius = document.getElementById('celcius');
+    var fahrenheit = document.getElementById('fahrenheit');
+ctof = () => 
+{
+    var celcius = document.getElementById('celcius');
+    var fahrenheit = document.getElementById('fahrenheit');
+  let output = (parseFloat(celcius.value) * 9) / 5 + 32;
+  fahrenheit.value = parseFloat(output.toFixed(2));
+};
+ftoc = () => 
+{
+    var celcius = document.getElementById('celcius');
+    var fahrenheit = document.getElementById('fahrenheit');
+  let output = ((parseFloat(fahrenheit.value) - 32) * 5) / 9;
+  celcius.value = parseFloat(output.toFixed(2));
+};
+
+      
+    </script>
+    <form class="form">
+        <div class="title">Convertor App</div>
+        <div class="control">
+            <label for="celcius" class="label">Celcius</label>
+            <input type="number" name="celcius" id="celcius" oninput="ctof()" placeholder="Value" >
+        </div>
+        <div class="control">
+            <label for="fahrenheit" class="label">Fahrenheit</label>
+            <input type="number" name="fahrenheit" id="fahrenheit" oninput="ftoc()" placeholder="value">
+        </div>
+        
+            
+    </form>
+    <p id="error"></p>
+    
+</body>
+</html>

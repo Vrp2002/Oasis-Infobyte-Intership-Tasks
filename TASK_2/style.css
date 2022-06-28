@@ -1,0 +1,229 @@
+* , html{
+margin: 0;
+overflow-x: hidden; 
+}
+body{
+    background-color: black;
+}
+.navbar{
+    position: fixed;
+    z-index: 1;
+    /* top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0; */
+    /* height: 100px; */
+    width: 100%;
+}
+.navigationbar{
+background-color: black;
+}
+.navbar-brand{
+    color: rgb(235, 204, 30);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 0 10%;
+    letter-spacing: 3px;
+}
+.navbar-nav{
+   margin-left: 20%;
+}
+.nav-item{
+    font-family:'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: left;
+    
+    /* display: inline-block; */
+}
+.nav-link{
+  
+    color: white;
+    margin-left: 30px;
+}
+
+.nav-link:active{
+    
+    color: rgb(235, 204, 30);
+    border-bottom: 5px solid rgb(235, 204, 30);
+}
+.nav-link:hover{
+    display: inline-block;
+    border-bottom: 2px solid rgb(235, 204, 30);
+}
+
+#home-content{
+    width: 50%;
+    margin:10% 10%;
+    overflow-y: hidden;
+
+}
+.hello-text{
+    color: rgb(235, 204, 30);
+    font-size: x-large;
+}
+#home-content h1{
+    color: aliceblue;
+    font-size: 4rem;
+    overflow-y: hidden;
+}
+#home-pic{
+
+    
+    position: absolute;
+    top: 35%;
+    left:60% ;
+    background-color: aliceblue;
+}
+.profile-pic{
+    width: 300px;
+    height: 300px;
+    
+}
+.btn-warning{
+    border-radius: 20%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.Web-text{
+    color: rgb(235, 204, 30);
+    font-family: 'Montserrat', sans-serif;
+}
+.section-title{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bolder;
+
+}
+#about-content{
+    /* margin-left: 50%; */
+    text-align: center;
+    position: relative;
+    top:99px;
+    width: 50%;
+    margin:100px 40%;
+    /* margin-bottom: 25%; */
+    overflow-y: hidden;
+}
+
+.field-name{
+    color: white;
+    font-size:large;
+    display: inline;
+}
+.field-value{
+    color: rgb(235, 204, 30);
+}
+section{
+  overflow-y: unset;
+  margin-top: 5%;
+  /* margin-bottom: 5%; */
+}
+#about-image{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 20%;
+}
+#skills{
+    margin-top: 150px;
+    background-image: url(./depositphotos_203049960-stock-photo-office-desktop-modern-laptop-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.progress{
+    width: 40%;
+    margin: 20px;
+    height:50px;
+    color: rgb(235, 204, 30);
+}
+.skill-value{
+    display: inline;
+    color: white;
+}
+.sr{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.skillbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 6%;
+    /* margin: 2%; */
+    /* border: 5px solid rgb(235, 204, 30); */
+}
+#portfolio{
+background-color: black;
+}
+.form-label{
+    color: white;
+}
+#contact{
+    margin-top: 10%;
+}
+.get-in-touch{
+ position: relative;
+ top: -450px;
+ left: 100px;
+ color: white;
+}
+
+.contact-form{
+    width: 50%;
+    margin: 6% 0 ;
+    margin-left: 47%;
+}
+.fa-solid{
+    color: rgb(235, 204, 30);
+}
+.social-media {
+    text-align: left;
+    
+}
+.fa-brands{
+    background-color:grey;
+    border-radius: 50%;
+    margin: 20px 10px;
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    padding: 10px 0;
+    overflow-y: hidden;
+    text-align: center;
+    /* margin: auto; */
+    /* border: 5px solid gray; */
+
+}
+.fa-brands:hover{
+    background-color:blue;
+}
+.carousel{
+    margin-left: 10%;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+}
+.carousel-item{
+    margin-left: 17%;
+    height: 70%;
+    width: 70%;
+    padding-bottom: 10px;
+}
+.carousel-caption{
+    color: black;
+    font-size: large;
+    font-weight: bolder;
+    position: absolute;
+    top: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.carousel-caption h1{
+    overflow: hidden;
+}
